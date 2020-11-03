@@ -1,7 +1,7 @@
 import React from "react";
 
-function Layout() {
-  return <div>SteveMahar.com</div>;
+function Layout({ children }) {
+  return <div>{children}</div>;
 }
 
 export default Layout;
